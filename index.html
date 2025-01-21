@@ -50,10 +50,11 @@
         <nav id="header-nav-wrap">
             <ul class="header-main-nav">
                 <li class="current"><a class="smoothscroll" href="#home" title="home">Inicio</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
-                <li><a class="smoothscroll" href="#perfilProfissional" title="about">Perfil Profissional</a></li>
-                <li><a class="smoothscroll" href="#Especialidades" title="Especialidades">Especialidades</a></li>
-                <li><a class="smoothscroll" href="#contact" title="about">Contato</a></li>
+                <li><a class="smoothscroll" href="#about" title="sobre">Sobre</a></li>
+                <li><a class="smoothscroll" href="#xroad" title="xvia">XVIA</a></li>
+                <li><a class="smoothscroll" href="#news" title="noticias">Noticias</a></li>
+                <li><a class="smoothscroll" href="#clients" title="clientes">Clientes</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contato">Contato</a></li>
             </ul>
 
             <!--  <a href="#" title="sign-up" class="button button-primary cta">Sign Up</a> -->
@@ -70,11 +71,14 @@
     <section id="home" data-parallax="scroll" class="parallax-slider">
 
         <video autoplay loop muted playsinline class="background-video">
-            <source src="../xvia/images/video_fundo_home.mp4" type="video/mp4">
+            <source src="/images/video_fundo_home.mp4" type="video/mp4">
         </video>
 
         <div class="overlay"></div>
         <div class="home-content">
+            <div class="home-content-logo">
+                <img src="/images/logo mti.png" alt="MTI">
+            </div>
 
             <div class="row contents">
                 <div class="home-content-left">
@@ -93,10 +97,10 @@
 
         <ul class="home-social-list">
             <li>
-                <a href="https://www.facebook.com/canavarrosadv" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/canavarrosadv/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
             </li>
             <li>
                 <a class="smoothscroll" href="#contact"><i class="fa fa-envelope"></i></i>
@@ -106,21 +110,24 @@
         <!-- end home-social-list -->
 
         <div class="home-scrolldown">
-            <a href="#about" class="scroll-icon smoothscroll">
+            <a href="#sobre" class="scroll-icon smoothscroll">
                 <span>Rolar para Baixo</span>
                 <i class="icon-arrow-right" aria-hidden="true"></i>
             </a>
         </div>
-
+        
     </section>
+    
     <!-- end home -->
 
 
-    <!-- about
+    <!-- sobre
     ================================================== -->
-    <section id="about">
+    
+    <section id="sobre">
+        <span id="about" style="position: relative; top: -102px;"></span>
 
-        <div class="row about-intro">
+        <div class="row sobre-intro">
             <h1 class="intro-header" data-aos="fade-up">Sobre o X-via</h1>
             <div class="col-four">
                 <img class="imgSobre" src="images/pic1.jpg" srcset="images/pic1.jpg 1x, images/pic1.jpg 2x" data-aos="fade-up">
@@ -135,7 +142,7 @@
             </div>
             <div class="row">
                 <div data-aos="fade-up" class="col-md-3 col-sm-6 col-xs-6 sm-margin-five-bottom sm-padding-ten-left xs-padding-15px-left xs-margin-30px-bottom text-center wow fadeInDown">
-                    <h5 class="font-weight-600 no-margin timer alt-font appear contagem plus-sign" data-speed="2000" data-to="40">20</h5>
+                    <h5 class="font-weight-600 no-margin timer alt-font appear contagem plus-sign" data-speed="2000" data-to="40">5</h5>
                     <span class="display-block margin-three-bottom ">Anos de experiência</span>
                 </div>
                 <div data-aos="fade-up" class="col-md-3 col-sm-6 col-xs-6 sm-margin-five-bottom sm-padding-ten-left xs-padding-15px-left xs-margin-30px-bottom text-center wow fadeInDown">
@@ -143,17 +150,18 @@
                     <span class="display-block margin-three-bottom">Casos Vencidos</span>
                 </div>
                 <div data-aos="fade-up" class="col-md-3 col-sm-6 col-xs-6 sm-margin-five-bottom sm-padding-ten-left xs-padding-15px-left xs-margin-30px-bottom text-center wow fadeInDown">
-                    <h5 class="font-weight-600 no-margin timer alt-font appear contagem plus-sign" data-speed="2000" data-to="40">600</h5>
+                    <h5 class="font-weight-600 no-margin timer alt-font appear contagem plus-sign" data-speed="2000" data-to="40">24</h5>
                     <span class="display-block margin-three-bottom">Clientes</span>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="revisaMT">
-        <div class="row about-features">
+    
+    <section id="xvia">
+        <span id="xroad" style="position: relative; top: -72px;"></span>
+        <div class="row sobre-features">
             <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
-                <div id="revisamt" class="capa2">
+                <div id="xvia" class="capa2">
                     <div class="bloco">
                         <div class="img"><img src="/images/revisamt.jpg" alt="Revisa MT"></div>
                         <div class="tab">
@@ -187,340 +195,200 @@
         </div>
     </section>
 
-
-    <section id="noticiaAdvg">
-        <div class="row about-intro">
+    <section id="noticias" class="noticias">
+        <span id="news" style="position: relative; top: -98px;"></span>
+        <div class="row sobre-intro">
             <h1 class="intro-header aos-init aos-animate" data-aos="fade-up">Noticias</h1>
             <!-- Set up your HTML -->
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <div class="card-main">
-                        <div class="card-img">
-                            <img src="images/receitaFederal.png" alt="">
+                    <a href="https://x-road.global/xroad-case-studies-library/2024/10/21/scaling-interoperability-across-states-for-national-digital-transformation-in-brazil" target="_blank">
+                        <div class="card-main">                        
+                            <div class="card-img">
+                                <img src="images/news/news_1.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Escalando a interoperabilidade entre níveis de governança e estados no Brasil</h3>
+                                <p class="card-description">
+                                    A troca segura de dados é a espinha dorsal de qualquer prestação de serviço digital – seja para cidadãos,
+                                    funcionários ou empresas. Mas na República Federativa do Brasil, com vinte e seis estados autônomos e mais
+                                    de 200 milhões de pessoas, como uma transformação digital tão massiva começa?
+                                </p>
+                            </div>                        
                         </div>
-                        <div class="card-content">
-                            <h3 class="card-title">Receita libera hoje consulta a restituição do Imposto de Renda</h3>
-                            <p class="card-description">
-                                A partir das 10h de hoje (24), o contribuinte que entregou a Declaração do Imposto de Renda Pessoa Física até o fim de maio poderá acertar as contas com o Leão.<br> Nesse horário, a Receita Federal libera a consulta ao
-                                quarto dos cinco lotes de restituição de 2022. O lote também contempla restituições de anos anteriores.No próximo dia 31, a Receita depositará R$ 6 bilhões a 4.462.564 contribuintes.
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="card-main">
-                        <div class="card-img">
-                            <img src="images/contrato2.jpg" alt="">
+                    <a href="https://x-road.global/xroad-case-studies-library/2024/10/21/from-one-domain-to-the-whole-government-x-road-takes-its-first-steps-in-two-mexican-states" target="_blank">
+                        <div class="card-main">                        
+                            <div class="card-img">
+                                <img src="images/news/news_2.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">De um domínio para todo o governo – X-Road dá seus primeiros passos em dois estados mexicanos</h3>
+                                <p class="card-description">
+                                    Entre 2020 e 2022, dois estados mexicanos iniciaram trabalhos para implementar instâncias X-Road separadamente para enfrentar
+                                    melhor os desafios de gestão populacional e lidar com dados gerados durante a pandemia de COVID-19.
+                                </p>
+                            </div>                            
                         </div>
-                        <div class="card-content">
-                            <h3 class="card-title">RP Cursos Tributários</h3>
-                            <p class="card-description">
-                                Ricardo Piedade, advogado tributarista e palestrante, é especialista em execuções fiscais. Ele oferece cursos e mentorias para advogados interessados em se especializar nesta área, abordando desde a Lei 6830/80 <br>até
-                                técnicas práticas para desbloqueio de contas bancárias e defesa de bens em execuções fiscais​ </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="item">
-                    <div class="card-main">
-                        <div class="card-img">
-                            <img src="/images/contrato1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <h3 class="card-title">Consultoria Jurídica e Defesa Fiscal</h3>
-                            <p class="card-description">
-                                Muitos escritórios de advocacia especializados em direito tributário oferecem serviços de consultoria jurídica para ajudar empresas e indivíduos a se preparar e defender-se em casos de execução fiscal.<br> Esses serviços
-                                incluem análise de riscos, elaboração de defesas, e acompanhamento de processos administrativos e judiciais​
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="card-main">
-                        <div class="card-img">
-                            <img src="/images/taxa.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <h3 class="card-title">Educação Continuada em Direito Tributário</h3>
-                            <p class="card-description">
-                                Vários cursos e workshops são oferecidos por especialistas em direito tributário, focando em execuções fiscais. <br> Esses programas educativos são destinados a advogados que buscam se especializar na área, aprendendo desde
-                                os aspectos legais até as estratégias de defesa prática em execuções fiscais​
-                            </p>
-                        </div>
-                    </div>
+                <div class="item">     
+                    <a href="https://x-road.global/xroad-case-studies-library/2024/10/21/how-x-road-gets-a-taste-of-the-big-city-life-in-buenos-aires-argentina" target="_blank">               
+                        <div class="card-main">                        
+                            <div class="card-img">
+                                <img src="/images/news/news_3.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Como a X-Road experimenta a vida na cidade grande de Buenos Aires, Argentina</h3>
+                                <p class="card-description">
+                                    A Argentina não é um novo alfinete no mapa global do X-Road®. Já há alguns anos, a camada de troca de dados tem sido identificada como uma
+                                    ferramenta valiosa para modernizar a administração pública por agentes de mudança na região.
+                                </p>
+                            </div>                            
+                        </div>   
+                    </a>                 
                 </div>
             </div>
         </div>
     </section>
 
 
-    <!-- end about -->
-    <section id="perfilProfissional" class="Especialidades">
-
+    <!-- end sobre -->
+    <section id="clientes" class="clients">
+        <span id="clients" style="position: relative; top: -138px;"></span>
         <div class="row">
             <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">Perfil Profissional</h1>
-            </div>
-        </div>
-        <div class="row about-intro">
-            <div class="col-four" style="margin-top: 5rem;">
-                <img class="imgProfissional" src="images/pic3.jpg" srcset="images/pic3.jpg 1x, images/pic3.jpg 2x" data-aos="fade-up">
-                <br>
-                <span><strong>Advogado Processual</strong></span><br>
-                <span><strong>OAB/MT 7178-B</strong></span>
-            </div>
-            <div class="col-eight">
-
-                <ul class="lead aos-init aos-animate listPerfil" data-aos="fade-up">
-                    <li data-aos="fade-up">Graduado em Direito pela Universidade Federal de Uberlândia UFU (2000);</li>
-                    <li data-aos="fade-up">Pós-Graduado em Direito Tributário pela PUC/Campinas (2002);</li>
-                    <li data-aos="fade-up">Pós-Graduado em Planejamento Tributário pela FGV/SP (2009);</li>
-                    <li data-aos="fade-up">Professor Direito Tributário na UNIC, UNIVAG, ESUD, SEFAZ/MT e SAD (2003/2009);</li>
-                    <li data-aos="fade-up">Conselheiro do Conselho de Contribuintes da SEFAZ/MT (2010/2012);</li>
-                    <li data-aos="fade-up">Diretor Regional do Instituto Brasileiro de Planejamento Tributário - IBPT (2005/2015);</li>
-                    <li data-aos="fade-up">Presidente da Comissão de Direito Tributário da OAB/MT (2009/2015);</li>
-                    <li data-aos="fade-up">Conselheiro do Conselho de Recursos Fiscais da Prefeitura de Cuiabá-MT (2014/2015);</li>
-                    <li data-aos="fade-up">Curso de Recuperação Judicial de Empresas no Direito Comparado: EUA, França e Brasil, na California Western School of Law, San Diego/EUA, 2017;</li>
-                    <li data-aos="fade-up">Co-autor do Livro “Os 30 anos do Sistema Tributário na Constituição Federal”; CFOAB, 2018;</li>
-                    <li data-aos="fade-up">Palestrante no I Congresso Luso Brasileiro em Lisboa/Portugal (2019);</li>
-                    <li data-aos="fade-up">Curso Direito Comparado na Universidade de Sorbonne, Paris (2019);</li>
-                    <li data-aos="fade-up">Membro Consultor da Comissão Especial de Direito Tributário do Conselho Federal da OAB em Brasília (2013/2023);</li>
-                </ul>
-            </div>
-
-        </div>
-
-
-        <!-- end flex-container -->
-
-    </section>
-
-    <!-- Especialidades Section
-    ================================================== -->
-    <section id="Especialidades">
-
-        <div class="row">
-            <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">Especialidades</h1>
-            </div>
-        </div>
-
-        <div class="row owl-wrap">
-
-            <div id="testimonial-slider" data-aos="fade-up">
-
-                <div class="slides owl-carousel">
-
-                    <div>
-                        <p>
-                            Orientação sobre a interpretação e aplicação das leis tributárias. Planejamento tributário para otimização da carga fiscal. Análise de riscos fiscais e compliance.
-                        </p>
-
-                        <div class="testimonial-author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image">
-                            <div class="author-info">
-                                Dr Darius
-                                <span>Advogado, Adv. Trib.</span>
-                                <span>Consultoria Tributária</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p>
-                            Representação em processos administrativos e judiciais. Defesa contra autuações fiscais. Elaboração de recursos e impugnações.
-                        </p>
-
-                        <div class="testimonial-author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image">
-                            <div class="author-info">
-                                Dr Darius
-                                <span>Advogado, Adv. Trib.</span>
-                                <span>Contencioso Tributário</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p>
-                            Due diligence tributária. Estruturação tributária de operações de M&A. Negociação de cláusulas contratuais relacionadas a tributos.
-                        </p>
-
-                        <div class="testimonial-author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image">
-                            <div class="author-info">
-                                Dr Darius
-                                <span>Advogado, Adv. Trib.</span>
-                                <span>Assessoria em Fusões e Aquisições</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p>
-                            Revisão e auditoria de procedimentos fiscais. Identificação de oportunidades de recuperação de créditos tributários. Avaliação de conformidade com a legislação tributária.
-                        </p>
-
-                        <div class="testimonial-author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image">
-                            <div class="author-info">
-                                Dr Darius
-                                <span>Advogado, Adv. Trib.</span>
-                                <span>Auditoria Fiscal</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p>
-                            Identificação e assessoria na obtenção de incentivos fiscais. Orientação sobre benefícios fiscais para determinados setores e regiões. Planejamento para maximização de benefícios fiscais.
-                        </p>
-
-                        <div class="testimonial-author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image">
-                            <div class="author-info">
-                                Dr Darius
-                                <span>Advogado, Adv. Trib.</span>
-                                <span>Incentivos Fiscais e Benefícios Tributários</span>
-                            </div>
-                        </div>
-                    </div>
+                <h1 class="intro-header" data-aos="fade-up">Clientes</h1>
+                <div>
+                    <ul class="grid">
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://seplag.mt.gov.br/index.php" target="_blank"><img src="/images/clients/seplag.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.empaer.mt.gov.br/" target="_blank"><img src="/images/clients/empaer.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.indea.mt.gov.br/" target="_blank"><img src="/images/clients/indea.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.pge.mt.gov.br/" target="_blank"><img src="/images/clients/pge.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.sedec.mt.gov.br/" target="_blank"><img src="/images/clients/sedec.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www3.seduc.mt.gov.br/" target="_blank"><img src="/images/clients/seduc.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www5.sefaz.mt.gov.br/" target="_blank"><img src="/images/clients/sefaz.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="http://www.sema.mt.gov.br/" target="_blank"><img src="/images/clients/sema.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.saude.mt.gov.br/" target="_blank"><img src="/images/clients/ses.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.setasc.mt.gov.br/" target="_blank"><img src="/images/clients/setasc.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.sinfra.mt.gov.br/" target="_blank"><img src="/images/clients/sinfra.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.pjc.mt.gov.br/" target="_blank"><img src="/images/clients/pjc.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.detran.mt.gov.br/" target="_blank"><img src="/images/clients/detran.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://www.ager.mt.gov.br/" target="_blank"><img src="/images/clients/ager.png" alt="MTI"></a>
+                        </li>
+                        <li class="g-col-6 g-col-md-4">
+                            <a href="https://unemat.br/" target="_blank"><img src="/images/clients/unemat.png" alt="MTI"></a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- end slides -->
-
-            </div>
-            <!-- end testimonial-slider -->
-
-        </div>
-        <!-- end flex-container -->
-
-    </section>
-
-    <!-- end Especialidades -->
-    <section id="contact">
-
-        <div class="row">
-
-            <div class="col tab-full">
-                <h1>Contato</h1>
-                <form id="emailForm" style="display: contents;">
-                    <div>
-                        <label for="subject">Título do Assunto</label>
-                        <input class="full-width" type="text" placeholder="Name" id="subject">
-                    </div>
-                    <div>
-                        <label for="sendername">Nome</label>
-                        <input class="full-width" type="text" placeholder="Nome" id="sendername">
-                    </div>
-                    <div>
-                        <label for="message">Mensagem</label>
-                        <textarea class="full-width" placeholder="Sua Mensagem" id="message"></textarea>
-                    </div>
-                    <input class="button-primary" type="submit" value="Enviar">
-                </form>
-                <div id="confirmation" class="message"></div>
             </div>
         </div>
     </section>
 
     <!-- footer ================================================== -->
-    <footer>
+    <section id="contato"></section>  
+        <span id="contact"></span>
+        <footer>            
+            <div class="footer-main">
+                <div class="row">
+                    <!-- end footer-info -->
+                    <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
+                        <h4>Mapa</h4>
 
-        <div class="footer-main">
-            <div class="row">
+                        <p>
+                            Av. Filinto Muller, n. 35,<br> Ed. Sarat, Sala 27,<br> Bairro Jardim Cuiabá, Cuiabá - MT <br> 78043-400 <br>
+                        </p>
+                        
+                        <p>
+                            E-mail: gasi@mti.mt.gov.br
+                        </p>
 
-                <div class="col-three md-1-3 tab-full footer-info">
+                        <p>
+                            Telefone: +55 (65) 99972-5131
+                        </p>
 
-                    <div class="footer-logo"></div>
-
-                    <p style="margin-right: 6rem;">
-                        Impor limites aos abusos do Fisco, essa é a nossa Causa!
-                    </p>
-
-                    <ul class="footer-social-list">
-                        <li>
-                            <a href="https://www.facebook.com/canavarrosadv" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/canavarrosadv/" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-
-
-                </div>
-                <!-- end footer-info -->
-
-                <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
-
-                    <h4>Mapa</h4>
-
-                    <p>
-                        Av. Filinto Muller, n. 35,<br> Ed. Sarat, Sala 27,<br> Bairro Jardim Cuiabá, Cuiabá - MT <br> 78043-400 <br>
-                    </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61493.2280064026!2d-56.12416741348653!3d-15.574181518988745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1efe3869ff3%3A0xcb8d59681ee229da!2sEdif%C3%ADcio%20Sarat!5e0!3m2!1spt-BR!2sbr!4v1715955661210!5m2!1spt-BR!2sbr"
-                        width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <p>
-                        Telefone: +55 (65) 99972-5131
-                    </p>
-
-                </div>
-                <!-- end footer-contact -->
-
-                <div class="col-two md-1-3 tab-1-2 mob-full footer-site-links">
-
-                    <h4>Site Links</h4>
-
-                    <ul class="list-links">
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#perfilProfissional">Perfil Profissional</a></li>
-                        <li><a href="#Especialidades">Especialidades</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                    </ul>
-                </div>
-                <!-- end footer-site-links -->
-
-                <div class="col-four md-1-2 tab-full footer-subscribe">
-
-                    <h4>Boletim Informativo</h4>
-
-                    <p style="margin-right: 2rem;">A Tributação Da Contribuição Previdenciária Sobre Benefícios Oferecidos Aos Empregados E Dirigentes.</p>
-
-                    <div class="subscribe-form">
-
-                        <form id="mc-form" class="group" novalidate="true">
-                            <input type="email" value="" name="email" class="email" id="mc-email" placeholder="Endereço de email" required="">
-                            <input type="submit" name="subscribe" value="Enviar">
-                            <label for="mc-email" class="subscribe-message"></label>
-                        </form>
-
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38751.92719461456!2d-56.102268435622506!3d-15.582759441798098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db104aee945cd%3A0x27940f2041b1c941!2sMTI%20-%20Empresa%20Mato-grossense%20de%20Tecnologia%20da%20Informa%C3%A7%C3%A3o!5e1!3m2!1spt-BR!2sbr!4v1736457968559!5m2!1spt-BR!2sbr"
+                                width="490" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
+                    <!-- end footer-contact -->
+                    <div class="col-three md-1-3 tab-1-2 mob-full footer-site-links">
+                        <h4>Site Links</h4>
+                        <ul class="list-links">
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#xroad">XVIA</a></li>
+                            <li><a href="#news">Noticias</a></li>
+                            <li><a href="#clients">Clientes</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer-site-links -->
+                    <div class="col-three md-1-2 tab-full footer-subscribe">
+                        <h4>Contato para Suporte</h4>
+                        <div class="subscribe-form">
+                            <form id="mc-form" class="group" novalidate="true">
+                                <input type="email" name="email" class="email" id="mc-email" placeholder="Endereço de email" required="">
+                                <input type="text" name="assunto" class="assunto" id="mc-assunto" placeholder="Assunto" required="">
+                                <textarea name="mensagem" class="mensagem" id="mc-mensagem" placeholder="Mensagem" required=""></textarea>
+                                <input type="submit" name="subscribe" value="Enviar">
+                                <label for="mc-email" class="subscribe-message"></label>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end footer-subscribe -->
 
                 </div>
-                <!-- end footer-subscribe -->
-
+                <!-- /row -->
             </div>
-            <!-- /row -->
-        </div>
-        <!-- end footer-main -->
+            <!-- end footer-main -->
 
-        <div class="footer-bottom">
-
-            <div class="row">
-
-                <div class="col-twelve">
-                    <div class="copyright">
-                        <span>© Copyright CO Digital 2024.</span>
-                        <!-- <span>Design by <a href="https://github.com/Jv-Pi">João V Pires</a></span> -->
-                    </div>
-
-                    <div id="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-twelve">
+                        <div class="copyright">
+                            <span>Desenvolvido por <a href="https://mti.mt.gov.br/" target="_blank"><img src="/images/logo mti.png" alt="MTI"></a></span> 
+                            <!-- <span>Design by <a href="https://github.com/Jv-Pi">João V Pires</a></span> -->
+                        </div>
+                        
+                        <div id="go-top">
+                            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <!-- end footer-bottom -->
-
-        </div>
-
-    </footer>
+                <!-- end footer-bottom -->
+            </div>            
+        </footer>
+    </section>
 
     <div id="preloader">
         <div id="loader"></div>
@@ -534,6 +402,19 @@
     <script src="js/main.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16481627435"></script>
+    <script>
+        document.querySelectorAll('.header-main-nav a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                // Remove a classe 'current' de todos os itens do menu
+                document.querySelectorAll('.header-main-nav li').forEach(item => {
+                    item.classList.remove('current');
+                });
+
+                // Adiciona a classe 'current' ao <li> do link clicado
+                event.target.parentElement.classList.add('current');
+            });
+        });
+    </script>
 
     <script>
         window.dataLayer = window.dataLayer || [];

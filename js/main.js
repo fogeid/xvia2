@@ -76,31 +76,31 @@
     });
   };
 
-  /* Highlight the current section in the navigation bar
-   * ------------------------------------------------------ */
-  var ssWaypoints = function () {
-    var sections = $("section"),
-      navigation_links = $(".header-main-nav li a");
+  // /* Highlight the current section in the navigation bar
+  //  * ------------------------------------------------------ */
+  // var ssWaypoints = function () {
+  //   var sections = $("section"),
+  //     navigation_links = $(".header-main-nav li a");
 
-    sections.waypoint({
-      handler: function (direction) {
-        var active_section;
+  //   sections.waypoint({
+  //     handler: function (direction) {
+  //       var active_section;
 
-        active_section = $("section#" + this.element.id);
+  //       active_section = $("section#" + this.element.id);
 
-        if (direction === "up") active_section = active_section.prev();
+  //       if (direction === "up") active_section = active_section.prev();
 
-        var active_link = $(
-          '.header-main-nav li a[href="#' + active_section.attr("id") + '"]'
-        );
+  //       var active_link = $(
+  //         '.header-main-nav li a[href="#' + active_section.attr("id") + '"]'
+  //       );
 
-        navigation_links.parent().removeClass("current");
-        active_link.parent().addClass("current");
-      },
+  //       navigation_links.parent().removeClass("current");
+  //       active_link.parent().addClass("current");
+  //     },
 
-      offset: "25%",
-    });
-  };
+  //     offset: "25%",
+  //   });
+  // };
 
   /* Smooth Scrolling
    * ------------------------------------------------------ */
@@ -209,7 +209,7 @@
     ssMobileMenu();
     ssFitVids();
     ssOwlCarousel();
-    ssWaypoints();
+    // ssWaypoints();
     ssSmoothScroll();
     ssPlaceholder();
     ssAlertBoxes();
